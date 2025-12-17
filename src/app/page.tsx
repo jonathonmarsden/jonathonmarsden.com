@@ -5,8 +5,11 @@ export default function Home() {
         {/* Header */}
         <header className="mb-8 text-center">
           <h1 className="text-3xl font-bold tracking-tight mb-2">Jonathon Marsden</h1>
-          <p className="text-neutral-600">
-            Digital Identity
+          <p className="text-lg text-neutral-800 font-medium">
+            Creative Technologist & Full Stack Engineer
+          </p>
+          <p className="text-neutral-500 text-sm mt-2 max-w-xs mx-auto">
+            Building intelligent tools for productivity, data visualization, and gaming.
           </p>
         </header>
 
