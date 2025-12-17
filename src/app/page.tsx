@@ -28,6 +28,19 @@ export default function Home() {
               <span className="text-neutral-400 group-hover:text-blue-600">→</span>
             </div>
           </a>
+
+          <a 
+            href="https://maps.jonathonmarsden.com/disc-golf-analyser" 
+            className="block group p-4 border border-neutral-200 rounded-md hover:border-neutral-400 transition-colors bg-neutral-50 hover:bg-white mt-3"
+          >
+            <div className="flex items-center justify-between">
+              <div>
+                <h3 className="font-medium text-neutral-900 group-hover:text-blue-600 transition-colors">Disc Golf Analyser</h3>
+                <p className="text-xs text-neutral-500 mt-1">Geospatial analysis of potential course locations in Melbourne.</p>
+              </div>
+              <span className="text-neutral-400 group-hover:text-blue-600">→</span>
+            </div>
+          </a>
         </section>
 
         {/* Contact Section */}
