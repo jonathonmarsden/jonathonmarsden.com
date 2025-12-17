@@ -17,7 +17,7 @@ export default function Home() {
           </p>
           
           <form 
-            action="https://formspree.io/f/YOUR_FORM_ID" 
+            action="https://formspree.io/f/ca0770826c1f4939a210931137c10572" 
             method="POST"
             className="space-y-4"
           >
