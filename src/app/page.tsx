@@ -9,7 +9,7 @@ export default function Home() {
             Creative Technologist & Full Stack Engineer
           </p>
           <p className="text-neutral-500 text-sm mt-2 max-w-xs mx-auto">
-            Building intelligent tools for productivity, data visualization, and gaming.
+            Building intelligent tools for productivity, data visualization and gaming.
           </p>
         </header>
 
