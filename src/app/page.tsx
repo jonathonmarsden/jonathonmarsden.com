@@ -17,26 +17,13 @@ export default function Home() {
         <section className="mb-8">
           <h2 className="text-xs font-semibold text-neutral-400 uppercase tracking-wider mb-3 text-center">Featured Work</h2>
           <a 
-            href="https://maps.jonathonmarsden.com/melbourne-metro" 
+            href="https://apps.jonathonmarsden.com/maps/disc-golf-site-finder" 
             className="block group p-4 border border-neutral-200 rounded-md hover:border-neutral-400 transition-colors bg-neutral-50 hover:bg-white"
           >
             <div className="flex items-center justify-between">
               <div>
-                <h3 className="font-medium text-neutral-900 group-hover:text-blue-600 transition-colors">Melbourne Metro 3D</h3>
-                <p className="text-xs text-neutral-500 mt-1">Interactive 3D visualization of the new tunnel alignment.</p>
-              </div>
-              <span className="text-neutral-400 group-hover:text-blue-600">→</span>
-            </div>
-          </a>
-
-          <a 
-            href="https://maps.jonathonmarsden.com/disc-golf-analyser" 
-            className="block group p-4 border border-neutral-200 rounded-md hover:border-neutral-400 transition-colors bg-neutral-50 hover:bg-white mt-3"
-          >
-            <div className="flex items-center justify-between">
-              <div>
-                <h3 className="font-medium text-neutral-900 group-hover:text-blue-600 transition-colors">Disc Golf Analyser</h3>
-                <p className="text-xs text-neutral-500 mt-1">Geospatial analysis of potential course locations in Melbourne.</p>
+                <h3 className="font-medium text-neutral-900 group-hover:text-blue-600 transition-colors">Disc Golf Site Finder</h3>
+                <p className="text-xs text-neutral-500 mt-1">Interactive map to find the best locations for new disc golf courses in Melbourne.</p>
               </div>
               <span className="text-neutral-400 group-hover:text-blue-600">→</span>
             </div>
