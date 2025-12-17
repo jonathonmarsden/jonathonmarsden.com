@@ -13,6 +13,23 @@ export default function Home() {
           </p>
         </header>
 
+        {/* Featured Projects */}
+        <section className="mb-8">
+          <h2 className="text-xs font-semibold text-neutral-400 uppercase tracking-wider mb-3 text-center">Featured Work</h2>
+          <a 
+            href="https://maps.jonathonmarsden.com/melbourne-metro" 
+            className="block group p-4 border border-neutral-200 rounded-md hover:border-neutral-400 transition-colors bg-neutral-50 hover:bg-white"
+          >
+            <div className="flex items-center justify-between">
+              <div>
+                <h3 className="font-medium text-neutral-900 group-hover:text-blue-600 transition-colors">Melbourne Metro 3D</h3>
+                <p className="text-xs text-neutral-500 mt-1">Interactive 3D visualization of the new tunnel alignment.</p>
+              </div>
+              <span className="text-neutral-400 group-hover:text-blue-600">→</span>
+            </div>
+          </a>
+        </section>
+
         {/* Contact Section */}
         <section>
           <p className="text-neutral-600 mb-6 text-center">
