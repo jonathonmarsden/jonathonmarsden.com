@@ -54,12 +54,20 @@ export const projects: Project[] = [
 
   // Arcade
   {
-    id: 'atlas',
-    title: 'The Atlas',
-    description: 'Interactive maps and spatial data visualizations.',
-    url: 'https://maps.jonathonmarsden.com',
+    id: 'map-melbourne',
+    title: 'Map: Melbourne Districts',
+    description: 'Interactive spatial visualization of Melbourne districts.',
+    url: 'https://maps.jonathonmarsden.com/melbourne-districts',
     category: 'Arcade',
-    tech: ['Mapbox', 'Next.js'],
+    tech: ['Mapbox'],
+  },
+  {
+    id: 'map-dolmenwood',
+    title: 'Map: Dolmenwood',
+    description: 'Hex map of the Dolmenwood forest.',
+    url: 'https://maps.jonathonmarsden.com/dolmenwood',
+    category: 'Arcade',
+    tech: ['Mapbox'],
   },
   {
     id: 'dolmenwood-combat',
