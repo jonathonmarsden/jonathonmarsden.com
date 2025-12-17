@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Jonathon Marsden - Digital Lobby
 
-## Getting Started
+This is the main entry point (Lobby) for the `jonathonmarsden.com` digital ecosystem. It serves as a minimalist calling card and directory, routing visitors to various sub-projects and applications.
 
-First, run the development server:
+## Architecture
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The ecosystem follows a "Lobby & Apps" architecture:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+*   **Lobby (Root):** `jonathonmarsden.com` (This repo)
+    *   **Purpose:** Identity, Bio, Contact, and Navigation.
+    *   **Tech:** Next.js 15 (App Router), Tailwind CSS.
+    *   **Hosting:** Vercel.
+*   **Maps App:** `maps.jonathonmarsden.com`
+    *   **Purpose:** High-fidelity geospatial visualizations.
+    *   **Tech:** Next.js, Mapbox GL JS.
+    *   **Repo:** `jonathonmarsden/maps-app`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+*   **Minimalist Design:** Clean typography using Geist font.
+*   **Contact Form:** Integrated with Formspree for serverless email handling.
+*   **Project Showcase:** Links to featured sub-projects (e.g., Melbourne Metro 3D).
 
-## Learn More
+## Development
 
-To learn more about Next.js, take a look at the following resources:
+1.  Install dependencies:
+    ```bash
+    npm install
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2.  Run the development server:
+    ```bash
+    npm run dev
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3.  Open [http://localhost:3000](http://localhost:3000).
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is deployed on **Vercel**.
+Pushing to the `main` branch triggers an automatic production deployment.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## DNS Configuration
+
+The domain is managed via Cloudflare, pointing to Vercel's infrastructure.
+- `jonathonmarsden.com` -> Vercel (Lobby Project)
+- `maps.jonathonmarsden.com` -> Vercel (Maps App Project)
