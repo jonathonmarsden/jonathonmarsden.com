@@ -54,6 +54,14 @@ export const projects: Project[] = [
 
   // Arcade
   {
+    id: 'atlas',
+    title: 'The Atlas',
+    description: 'Interactive maps and spatial data visualizations.',
+    url: 'https://maps.jonathonmarsden.com',
+    category: 'Arcade',
+    tech: ['Mapbox', 'Next.js'],
+  },
+  {
     id: 'dolmenwood-combat',
     title: 'Dolmenwood Combat',
     description: 'Combat calculator for Dolmenwood OSR RPG.',
