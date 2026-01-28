@@ -13,22 +13,7 @@ export default function Home() {
           </p>
         </header>
 
-        {/* Featured Projects */}
-        <section className="mb-8">
-          <h2 className="text-xs font-semibold text-neutral-400 uppercase tracking-wider mb-3 text-center">Featured Work</h2>
-          <a 
-            href="https://apps.jonathonmarsden.com/maps/disc-golf-site-finder" 
-            className="block group p-4 border border-neutral-200 rounded-md hover:border-neutral-400 transition-colors bg-neutral-50 hover:bg-white"
-          >
-            <div className="flex items-center justify-between">
-              <div>
-                <h3 className="font-medium text-neutral-900 group-hover:text-blue-600 transition-colors">Disc Golf Site Finder</h3>
-                <p className="text-xs text-neutral-500 mt-1">Interactive map to find the best locations for new disc golf courses in Melbourne.</p>
-              </div>
-              <span className="text-neutral-400 group-hover:text-blue-600">→</span>
-            </div>
-          </a>
-        </section>
+
 
         {/* Contact Section */}
         <section>
